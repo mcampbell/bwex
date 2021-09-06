@@ -1,0 +1,23 @@
+{
+    "name": "nodebwex",
+    "version": "1.0.0",
+    "description": "Backend Coding Exercise",
+    "main": "index.js",
+    "scripts": {
+        "test:run": "cypress run",
+        "test:open": "cypress open"
+    },
+    "author": "michael campbell <michael.campbell@gmail.com>",
+    "license": "Apache-2.0",
+    "devDependencies": {
+        "cypress": "^8.3.1",
+        "nodemon": "^2.0.12"
+    },
+    "dependencies": {
+        "axios": "^0.21.3",
+        "express": "^4.17.1",
+        "html-to-text": "^8.0.0",
+        "is-email": "^1.0.1",
+        "ramda": "^0.27.1"
+    }
+}
