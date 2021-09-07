@@ -172,3 +172,6 @@ As much as I have played up Cypress, I was unable to get it to mock/stub a netwo
 response.  This works for me in my "day job", so I am unsure where I've gone wrong here,
 but given the time constraints I have to leave it at mostly happy path with a smidgen of
 testing things in each provider that wouldn't occur in the other.
+
+I don't have a Windows machine to test on, but these instructions should work for MacOS
+and at least a Debian flavored Linux.
