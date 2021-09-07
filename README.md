@@ -96,6 +96,17 @@ test:open`) or headless mode (`npm run test:run`).
 
 It does assume the server is running, and on port 3000.
 
+######################
+Note:  You may see an error on Linux:
+```
+Your system is missing the dependency: Xvfb
+
+Install Xvfb and run Cypress again.
+```
+
+Run `sudo apt install xvfb` to fix and try `npm run test:run` again.
+######################
+
 
 ## Tech Choices
 ### Implementation
